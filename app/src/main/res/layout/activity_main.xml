@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ady.homework1172017.MainActivity">
+
+    <TextView
+        android:id="@+id/AllaboutME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="200dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:text=" ALL About ME"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp" />
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="400dp"
+        android:gravity="center_vertical"
+
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="40dp" />
+    <ImageView
+        android:id="@+id/picout"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:layout_marginLeft="300dp"
+
+        android:layout_marginTop="10dp"
+        android:src="@drawable/pic"
+        android:visibility="invisible"
+
+
+
+        />
+    <Button
+        android:id="@+id/where"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="80dp"
+        android:text="Where I'm Coming From"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/Education"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="160dp"
+        android:text="Education"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/Go"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="240dp"
+        android:text="Where I wanna To Go"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/Pic"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="320dp"
+        android:text="My Pic"
+        android:textSize="20dp"
+        />
+
+</RelativeLayout>
